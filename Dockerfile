@@ -16,7 +16,8 @@ RUN apk update && apk add --no-cache --virtual .build-deps \
     py-pip \
     git \
     make \
-    jq
+    jq \
+    grep
 
 # yq
 RUN pip install yq
